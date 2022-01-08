@@ -32,8 +32,7 @@ public class MainActivity extends AppCompatActivity {
         if(uname.equals("admin") && pwd.equals("123"))
         {
             Toast.makeText(getApplicationContext(),"Login Successful",Toast.LENGTH_SHORT).show();
-            // Intent intent=new Intent(MainActivity.this,MainActivity2.class);
-            // startActivity(intent);
+           
         }
         else
             Toast.makeText(getApplicationContext(),"Login Failed",Toast.LENGTH_LONG).show();
